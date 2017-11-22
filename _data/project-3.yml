@@ -1,0 +1,12 @@
+images:
+  - title: "Project 1"
+    desc: "blabla"
+    src: "case-study-1.svg"
+
+  - title: "Project 2"
+    desc: "blabla"
+    src: "case-study-1.svg"
+
+  - title: "Project 3"
+    desc: "blabla"
+    src: "case-study-1.svg"

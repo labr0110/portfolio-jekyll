@@ -1,0 +1,12 @@
+{% for item in site.data[include.data].images %}
+
+#{{include.data}}-{{forloop.index}}:checked ~ #{{include.data}}-{{forloop.index}}-slide {
+  z-index: 9;
+}
+
+
+#{{include.data}}-{{forloop.index}}:checked ~  .nav #{{include.data}}-{{forloop.index}}-dot {
+  background: #fff;
+}
+
+{% endfor %}

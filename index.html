@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio</title>
-</head>
-<body>
-  <h1>Portfolio</h1>
-  <p> lots of planets in the univers</p>
-</body>
-</html>
+---
+layout: default
+---
+<main>
+  <div class="grid grid-middle">
+  {% include carousel.html data="project-1" %}
+  {% include carousel.html data="project-2" %}
+  {% include carousel.html data="project-3" %}
+  {% include carousel.html data="project-4" %}
+  </div>
+</main>
