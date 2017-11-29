@@ -9,10 +9,10 @@
         <p class="slide-description" itemprop="description">{{item.desc}}</p>
       </div>
       <div itemprop="accessibilityControl">
-        <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
+        <label for="{{include.data}}-{{forloop.index|minus:1}}" rel="prev"class="pre">
           <img src="images/pre.svg" alt="Click to view the previous slide.">
         </label>
-        <label for="{{include.data}}-{{forloop.index|plus:1}}" class="nxt">
+        <label for="{{include.data}}-{{forloop.index|plus:1}}" rel="next" class="nxt">
           <img src="images/nxt.svg" alt="Click to view the next slide.">
         </label>
       </div>
@@ -20,7 +20,7 @@
     {% endfor %}
     <div class="nav" itemprop="accessibilityControl">
       {% for item in site.data[include.data].images %}
-      <label class="dots" id="{{include.data}}-{{forloop.index}}-dot" for="{{include.data}}-{{forloop.index}}"></label>
+      <label class="dots" id="{{include.data}}-{{forloop.index}}-dot" for="{{include.data}}-{{forloop.index}}" rel="next"></label>
       {% endfor %}
     </div>
   </div>
