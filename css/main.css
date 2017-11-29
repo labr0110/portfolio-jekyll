@@ -125,12 +125,12 @@ label.nav-label::before{
   top: 0;
 }
 
-.banner .banner-inner {
+.banner .banner-content {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
   max-width: none;
-  background: url(images/background.jpg) no-repeat 50% 50%;
+  background: url("../images/background.jpg") no-repeat 50% 50%;
   background-size: cover;
   background-attachment: fixed;
   background-color: #f4f4f4;

@@ -8,25 +8,4 @@
     <lastmod>2017-11-29</lastmod>
   </url>
 
-  <url>
-    <loc>https://andreane-labrosse.ca/#the-designer</loc>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
-    <lastmod>2017-11-29</lastmod>
-  </url>
-
-  <url>
-    <loc>https://andreane-labrosse.ca/#portfolio</loc>
-    <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2017-11-29</lastmod>
-  </url>
-
-  <url>
-    <loc>https://andreane-labrosse.ca/#contact-me</loc>
-    <priority>0.4</priority>
-    <changefreq>yearly</changefreq>
-    <lastmod>2017-11-29</lastmod>
-  </url>
-
 </urlset>
