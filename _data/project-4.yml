@@ -1,12 +1,12 @@
 images:
-  - title: "Project 1"
-    desc: "blabla"
+  - title: "Project Title"
+    desc: "Type of design"
     src: "case-study-1.svg"
 
-  - title: "Project 2"
-    desc: "blabla"
+  - title: ""
+    desc: ""
     src: "case-study-1.svg"
 
   - title: "Project 3"
-    desc: "blabla"
+    desc: ""
     src: "case-study-1.svg"

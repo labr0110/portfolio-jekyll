@@ -1,17 +1,18 @@
 <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
-
   <div class="container">
     {% for item in site.data[include.data].images %}
     <input type="radio" name="{{include.data}}-input" id="{{include.data}}-{{forloop.index}}" {% if forloop.first %}checked{%endif%}>
     <div class="slide-img" id="{{include.data}}-{{forloop.index}}-slide">
-      <img src="images/{{item.src}}">
-      <h2 class="slide-text-title">{{item.title}}</h2>
-      <p class="slide-text">This is my project.</p>
+      <img class="portfolio-img" src="images/{{item.src}}">
+      <div class="slide-title">
+        <h2 class="slide-project-title">{{item.title}}</h2>
+        <p class="slide-description">{{item.desc}}</p>
+      </div>
       <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
-        <img src="images/scroll-down-banner.svg" alt="">
+        <img src="images/pre.svg" alt="">
       </label>
       <label for="{{include.data}}-{{forloop.index|plus:1}}" class="nxt">
-        <img src="images/scroll-down-banner.svg" alt="">
+        <img src="images/nxt.svg" alt="">
       </label>
     </div>
     {% endfor %}
