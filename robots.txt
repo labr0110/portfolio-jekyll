@@ -1,0 +1,3 @@
+Sitemap: https://andreane-labrosse.ca/sitemap.xml
+
+User-agent: *

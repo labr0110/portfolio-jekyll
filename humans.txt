@@ -1,0 +1,23 @@
+# humanstxt.org
+
+
+/* TEAM */
+
+
+Graphic Designer: Andreane Labrosse <design@andreane-labrosse.ca>
+Site: andreane-labrosse.ca
+Instagram: https://www.instagram.com/alabrossedesign
+Location: Ottawa, Canada.
+
+
+/* SITE */
+
+
+Last update: 2017/11/29
+Standards: HTML5, CSS3, Javascript
+
+
+/* SOFTWARE */
+
+- Atom
+- Git + Github

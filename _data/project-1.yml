@@ -2,11 +2,14 @@ images:
   - title: "Project Title"
     desc: "Type of design"
     src: "project-1-1.jpg"
+    alt: ""
 
   - title: ""
     desc: ""
     src: "case-study-2.svg"
+    alt: ""
 
   - title: ""
     desc: ""
     src: "case-study-3.svg"
+    alt: ""

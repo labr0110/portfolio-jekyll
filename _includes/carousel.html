@@ -1,22 +1,24 @@
-<div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
-  <div class="container">
+<div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 text-center">
+  <div class="container" itemscope itemtype="http://schema.org/CreativeWork">
     {% for item in site.data[include.data].images %}
     <input type="radio" name="{{include.data}}-input" id="{{include.data}}-{{forloop.index}}" {% if forloop.first %}checked{%endif%}>
-    <div class="slide-img" id="{{include.data}}-{{forloop.index}}-slide">
-      <img class="portfolio-img" src="images/{{item.src}}">
-      <div class="slide-title">
-        <h2 class="slide-project-title">{{item.title}}</h2>
-        <p class="slide-description">{{item.desc}}</p>
+    <div class="slide-img" id="{{include.data}}-{{forloop.index}}-slide" itemprop="encoding" itemscope itemtype="http://schema.org/MediaObject">
+      <img class="portfolio-img" src="images/{{item.src}}" alt="Case study Images" itemprop="thumbnailUrl">
+      <div class="slide-title" itemprop="alternativeHeadline">
+        <h2 class="slide-project-title" itemprop="title">{{item.title}}</h2>
+        <p class="slide-description" itemprop="description">{{item.desc}}</p>
       </div>
-      <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
-        <img src="images/pre.svg" alt="">
-      </label>
-      <label for="{{include.data}}-{{forloop.index|plus:1}}" class="nxt">
-        <img src="images/nxt.svg" alt="">
-      </label>
+      <div itemprop="accessibilityControl">
+        <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
+          <img src="images/pre.svg" alt="Click to view the previous slide.">
+        </label>
+        <label for="{{include.data}}-{{forloop.index|plus:1}}" class="nxt">
+          <img src="images/nxt.svg" alt="Click to view the next slide.">
+        </label>
+      </div>
     </div>
     {% endfor %}
-    <div class="nav">
+    <div class="nav" itemprop="accessibilityControl">
       {% for item in site.data[include.data].images %}
       <label class="dots" id="{{include.data}}-{{forloop.index}}-dot" for="{{include.data}}-{{forloop.index}}"></label>
       {% endfor %}
