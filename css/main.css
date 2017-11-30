@@ -125,7 +125,7 @@ label.nav-label::before{
   top: 0;
 }
 
-.banner .banner-content {
+.banner .bannercontent {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
@@ -146,7 +146,7 @@ label.nav-label::before{
   max-width: none;
 }
 
-.banner-content {
+.bannercontent {
   position: relative;
   display: table-cell;
   vertical-align: middle;
