@@ -111,10 +111,6 @@ label.nav-label::before{
   margin: 10px;
 }
 
-.current {
-  background-color: #000;
-  color: #fff;
-}
 
 .banner {
   position: relative;
@@ -125,7 +121,7 @@ label.nav-label::before{
   top: 0;
 }
 
-.banner .bannercontent {
+.banner .banner-content {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
@@ -135,6 +131,9 @@ label.nav-label::before{
   background-attachment: fixed;
   background-color: #f4f4f4;
   min-height: 400px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .banner .bannerscroll {
@@ -146,7 +145,7 @@ label.nav-label::before{
   max-width: none;
 }
 
-.bannercontent {
+.banner-content {
   position: relative;
   display: table-cell;
   vertical-align: middle;
