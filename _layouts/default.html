@@ -14,17 +14,18 @@
 <body>
   <header>
     <nav class="mainnav text-center">
-      <i class="nav-logo-2 icon i-48">
-        <a href="#"><img src="images/logo.svg" alt="Andreane Labrosse Design's Logo"></a>
-      </i>
-      <input type="checkbox" class="nav-check" id="nav-check">
+      <div class="nav-content">
+        <i class="nav-logo-2 icon i-48">
+          <a href="#"><img src="images/logo.svg" alt="Andreane Labrosse Design's Logo"></a>
+        </i>
+        <input type="checkbox" class="nav-check" id="nav-check">
         <label class="nav-label" for="nav-check">
-          <i class="icon i-32">
+          <i class="icon i-48" id="toggle">
             <img class="nav-open" src="images/toggle.svg" alt="Toggle Navigation Open">
             <img class="nav-close" src="images/toggle-close.svg" alt="Toggle Navigation Close">
           </i>
         </label>
-        <ul class="nav list-group-inline">
+        <ul class="nav list-group-inline" id="nav">
           <li><a class="main-nav-link" href="#" rel="home">home</a></li>
           <li><a class="main-nav-link" href="#the-designer" rel="me">the designer</a></li>
           <li>
@@ -35,6 +36,7 @@
           <li><a class="main-nav-link" href="#portfolio" rel="">portfolio</a></li>
           <li><a class="main-nav-link" href="#contact-me" rel="contact">contact me</a></li>
         </ul>
+      </div>
     </nav>
   </header>
   <section class="banner">
@@ -99,9 +101,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
-  <script src="../js/smooth-scrolling.js"></script>
   <script src="../js/jquery.waypoints.min.js"></script>
-  <script src="../js/parallax.min.js"></script>
+  <script src="../js/smooth-scrolling.js"></script>
+  <script src="../js/parallax.js"></script>
+  <script src="../js/fixednav.js"></script>
   <script src="../js/waypoints.js"></script>
 </body>
 </html>
