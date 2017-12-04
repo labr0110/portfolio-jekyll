@@ -1,4 +1,11 @@
-<div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 text-center">
+<div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
+  <div class="portfolio-info">
+    <h1>hello</h1>
+    <p>hi</p>
+  </div>
+</div>
+
+<div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
   <div class="container" itemscope itemtype="http://schema.org/CreativeWork">
     {% for item in site.data[include.data].images %}
     <input type="radio" name="{{include.data}}-input" id="{{include.data}}-{{forloop.index}}" {% if forloop.first %}checked{%endif%}>
