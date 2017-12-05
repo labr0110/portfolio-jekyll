@@ -1,12 +1,15 @@
 images:
   - title: "Project Title"
     desc: "Type of design"
-    src: "case-study-1.svg"
+    src: "isometric_1.jpg"
+    alt: ""
 
   - title: ""
     desc: ""
-    src: "case-study-2.svg"
+    src: "case-study-2.jpg"
+    alt: ""
 
   - title: ""
     desc: ""
-    src: "case-study-3.svg"
+    src: "case-study-3.jpg"
+    alt: ""

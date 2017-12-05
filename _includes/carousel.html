@@ -10,7 +10,7 @@
     {% for item in site.data[include.data].images %}
     <input type="radio" name="{{include.data}}-input" id="{{include.data}}-{{forloop.index}}" {% if forloop.first %}checked{%endif%}>
     <div class="slide-img" id="{{include.data}}-{{forloop.index}}-slide" itemprop="encoding" itemscope itemtype="http://schema.org/MediaObject">
-      <img class="portfolio-img img-flex" src="images/{{item.src}}" alt="Case study Images" itemprop="thumbnailUrl">
+      <img class="portfolio-img" src="images/{{item.src}}" alt="Case study Images" itemprop="thumbnailUrl">
       <div itemprop="accessibilityControl">
         <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
           <img src="images/pre.svg" alt="Click to view the previous slide.">
