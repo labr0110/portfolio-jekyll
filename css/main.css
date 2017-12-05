@@ -18,6 +18,10 @@ img.toggle {
   width: 60%;
 }
 
+.portfolio-border {
+  border: solid 1px #000;
+}
+
 .nav {
   display: none;
 }
@@ -230,7 +234,7 @@ label.nav-label::before{
   height: 100%;
   padding-bottom: 40%;
   background: #fff;
-  border: solid 1px #000;
+  border: solid .5px #000;
 }
 
 .slide-img {
@@ -273,11 +277,11 @@ label.nav-label::before{
 }
 
 .dots {
+  position: relative;
   top: -5px;
   width: 12px;
   height: 12px;
   margin: 0 4px;
-  position: relative;
   border-radius: 50%;
   display: inline-block;
   background: rgba(0,0,0,.4);
@@ -354,6 +358,7 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
+
 
   .banner-title, .banner-title-2{
     font-size: 4em;
