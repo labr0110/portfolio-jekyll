@@ -227,6 +227,10 @@ label.nav-label::before{
   font-size: 200%;
 }
 
+.portfolio-bg {
+  background-color: #ccc;
+}
+
 .container {
   background: #fff;
   border: solid 1px #000;
@@ -283,7 +287,6 @@ label.nav-label::before{
 .slide-img {
   z-index: -1;
 }
-
 
 .slide-title {
   top: 50%;
@@ -348,11 +351,20 @@ footer {
     font-size: 70%;
   }
 
+  .pre, .nxt {
+    width: 6%;
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+
   .nav-check:checked ~ .nav .main-nav-link {
     font-size: 80%;
     padding: .5em;
     margin: 0;
-
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -374,6 +386,14 @@ footer {
     font-size: 80%;
     padding: 1.3em;
     margin: 0;
+  }
+
+  .pre, .nxt {
+    width: 3%;
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    cursor: pointer;
   }
 
 }
