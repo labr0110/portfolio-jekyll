@@ -1,15 +1,15 @@
 <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 text-center">
   <div class="portfolio-info">
-    <h2 class="push-0 pad-t-2">Project</h2>
-    <p class="micro push-1-2"><i>Description</i></p>
+    <h2 class="push-0 pad-t-2">{{site.data[include.data].title}}</h2>
+    <p class="micro push-1-2"><i>{{site.data[include.data].desc}}</i></p>
   </div>
 </div>
 
 <div class="unit xs-1 s-1 m-1 l-2-3 xl-2-3 text-center">
-  <div class="container" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="container embed embed-16by9" itemscope itemtype="http://schema.org/CreativeWork">
     {% for item in site.data[include.data].images %}
     <input type="radio" name="{{include.data}}-input" id="{{include.data}}-{{forloop.index}}" {% if forloop.first %}checked{%endif%}>
-    <div class="slide-img" id="{{include.data}}-{{forloop.index}}-slide" itemprop="encoding" itemscope itemtype="http://schema.org/MediaObject">
+    <div class="slide-img embed-item" id="{{include.data}}-{{forloop.index}}-slide" itemprop="encoding" itemscope itemtype="http://schema.org/MediaObject">
       <img class="portfolio-img" src="images/{{item.src}}" alt="Case study Images" itemprop="thumbnailUrl">
       <div itemprop="accessibilityControl">
         <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">

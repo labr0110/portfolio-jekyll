@@ -228,11 +228,6 @@ label.nav-label::before{
 }
 
 .container {
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 40%;
   background: #fff;
   border: solid .5px #000;
 }

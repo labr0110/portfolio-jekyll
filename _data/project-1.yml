@@ -1,15 +1,12 @@
+title: "Project Title"
+desc: "Type of design"
+
 images:
-  - title: "Project Title"
-    desc: "Type of design"
-    src: "isometric_1.jpg"
+  - src: "isometric_1.jpg"
     alt: ""
 
-  - title: ""
-    desc: ""
-    src: "case-study-2.jpg"
+  - src: "case-study-2.jpg"
     alt: ""
 
-  - title: ""
-    desc: ""
-    src: "case-study-3.jpg"
+  - src: "case-study-3.jpg"
     alt: ""
