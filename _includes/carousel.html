@@ -12,12 +12,16 @@
     <div class="slide-img embed-item" id="{{include.data}}-{{forloop.index}}-slide" itemprop="encoding" itemscope itemtype="http://schema.org/MediaObject">
       <img class="portfolio-img" src="images/{{item.src}}" alt="Case study Images" itemprop="thumbnailUrl">
       <div itemprop="accessibilityControl">
-        <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
-          <img class="scrolling-btns" src="images/pre.svg" alt="Click to view the previous slide.">
-        </label>
-        <label for="{{include.data}}-{{forloop.index|plus:1}}" class="nxt">
-          <img class="scrolling-btns" src="images/nxt.svg" alt="Click to view the next slide.">
-        </label>
+        {% unless forloop.first %}
+          <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
+            <img class="scrolling-btns" src="images/pre.svg" alt="Click to view the previous slide.">
+          </label>
+        {% endunless %}
+        {% unless forloop.last %}
+          <label for="{{include.data}}-{{forloop.index|plus:1}}" class="nxt">
+            <img class="scrolling-btns" src="images/nxt.svg" alt="Click to view the next slide.">
+          </label>
+        {% endunless %}
       </div>
     </div>
     {% endfor %}
