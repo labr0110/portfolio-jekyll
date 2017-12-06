@@ -5,7 +5,7 @@
 }
 
 
-#{{include.data}}-{{forloop.index}}:checked ~  .nav #{{include.data}}-{{forloop.index}}-dot {
+#{{include.data}}-{{forloop.index}}:checked ~  .nav-btn #{{include.data}}-{{forloop.index}}-dot {
   background: #fff;
 }
 
