@@ -22,6 +22,22 @@ img.toggle {
   border: solid 1px #000;
 }
 
+.portfolio-title {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: right;
+  margin-right: .5em;
+  color: #f7edee;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+}
+
+.portfolio-info {
+  color: #fff;
+  text-align: right;
+  font-family: sans-serif;
+  margin-right: .9em;
+}
+
 .nav {
   display: none;
 }
@@ -87,10 +103,13 @@ label.nav-label::before{
 
 .main-nav-link {
   font-family: sans-serif;
-  font-size: 70%;
-  color: #000;
+  font-size: 60%;
+  letter-spacing: 0.40em;
+  text-indent: 0.40em;
+  color: #3a4556;
   margin: 20px 20px;
   padding: 10px 20px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .main-nav-link:hover {
@@ -126,7 +145,6 @@ label.nav-label::before{
   transition: all ease .5s;
 }
 
-
 .banner {
   position: relative;
   height: 100%;
@@ -141,10 +159,10 @@ label.nav-label::before{
   vertical-align: middle;
   width: 100%;
   max-width: none;
-  background: url("../images/background.jpg") no-repeat 50% 50%;
+  background: url("") no-repeat 50% 50%;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #f4f4f4;
+  background-color: #f7edee;
   min-height: 400px;
 }
 
@@ -163,23 +181,35 @@ label.nav-label::before{
   vertical-align: middle;
   margin: 0 auto;
   text-align: center;
+  font-size: 85%;
 }
 
 .banner-title-second {
-  font-size: 85%;
-  letter-spacing: 0.36em;
-  text-indent: 0.36em;
+  font-size: 65%;
+  letter-spacing: 0.35em;
+  text-indent: 0.35em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #3a4556;
+  text-align: left;
+  padding-left: 1.5em;
 }
 
 .banner-title {
-  font-size: 250%;
-  margin: 0.2em;
-  line-height: 1.1;
+  margin: 0.2em 0.15em;
+  line-height: 0.9;
   margin-top: 1em;
+  font-family: 'Abril Fatface', cursive;
+  color: #3a4556;
+  text-align: left;
+  padding-left: .4em;
 }
 
 .banner-title-2 {
-  font-size: 250%;
+  font-family: 'Abril Fatface', cursive;
+  color: #3a4556;
+  margin: 0.2em 0.15em;
+  text-align: left;
+  padding-left: .4em;
 }
 
 .banner-paragraph {
@@ -187,12 +217,20 @@ label.nav-label::before{
 }
 
 .banner-btn {
-  font-family: sans-serif;
-  color: #000;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #3a4556;
   padding: 10px 20px;
-  border: solid #000 2px;
+  border: solid #3a4556 2px;
   text-transform: uppercase;
   font-size: 40%;
+  text-align: left;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+}
+
+.banner-btn-scroll {
+  text-align: left;
+  padding-left: 1.7em;
 }
 
 .banner-btn:hover {
@@ -200,11 +238,23 @@ label.nav-label::before{
   transition: all 250ms linear;
 }
 
+.aboutme-title {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+}
+
 .the-designer {
-  height: 100%;
+  display: table;
+  height: 100vh;
   width: 100%;
   margin: auto;
   text-align: center;
+}
+
+.the-designer-inner {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .the-designer-paragraph {
@@ -212,12 +262,14 @@ label.nav-label::before{
 }
 
 .portfolio-bg {
-  background-color: #ccc;
+  background-color: #3a4556;
 }
 
 .container {
   background: #fff;
-  border: solid 1px #000;
+  border-top: solid 4px #3a4556;
+  border-right: solid 4px #3a4556;
+  border-left: solid 4px #3a4556;
 }
 
 .slide-img {
@@ -229,15 +281,6 @@ label.nav-label::before{
   transform: scale(1.05);
 }
 
-.pre, .nxt {
-  width: 3%;
-  height: 13%;
-  position: absolute;
-  top: 50%;
-  z-index: 99;
-  cursor: pointer;
-}
-
 .pre {
   left: 0;
   margin-left: 1em;
@@ -246,6 +289,10 @@ label.nav-label::before{
 .nxt {
   right: 0;
   margin-right: 1em;
+}
+
+.scrolling-btns {
+  top: 0;
 }
 
 .nav-btn {
@@ -287,6 +334,7 @@ label.nav-label::before{
 
 footer {
   background-color: #ccc;
+    border-top: solid 4px #3a4556;
 }
 
 .footer-contact {
@@ -343,11 +391,14 @@ footer {
     cursor: pointer;
   }
 
-
   .nav-check:checked ~ .nav .main-nav-link {
     font-size: 80%;
     padding: .5em;
     margin: 0;
+  }
+
+  .banner-btn-scroll {
+    padding-left: 1.8em;
   }
 }
 
@@ -379,7 +430,6 @@ footer {
     z-index: 99;
     cursor: pointer;
   }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -404,5 +454,20 @@ footer {
 
   .nav-logo-2 {
     display: none;
+  }
+  .banner-btn-scroll {
+    padding-left: 2.6em;
+  }
+
+  .banner-title-second {
+    margin-left: 4em;
+  }
+
+  .banner-title, .banner-title-2  {
+    margin-left: 1.6em;
+  }
+
+  .banner-btn {
+    margin-left: 7.7em;
   }
 }

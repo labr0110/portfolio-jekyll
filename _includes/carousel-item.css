@@ -6,7 +6,7 @@
 
 
 #{{include.data}}-{{forloop.index}}:checked ~  .nav-btn #{{include.data}}-{{forloop.index}}-dot {
-  background: #000;
+  background: #3a4556;
 }
 
 {% endfor %}
