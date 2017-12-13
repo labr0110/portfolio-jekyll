@@ -1,19 +1,18 @@
 html, body {
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  overflow-x:hidden;
 }
 
 html {
-  font-family: sans-serif;
+  overflow-x: hidden;
 }
 
+
 .fonts-loaded {
-  font-family: "PT sans", sans-serif;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "PT Sans", sans-serif;
 }
 
 ul {
@@ -33,12 +32,44 @@ img.toggle {
 }
 
 .portfolio-title {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: sans-serif;
   text-align: right;
   margin-right: .5em;
   color: #f7edee;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
+}
+
+.fonts-loaded .portfolio-title {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.fonts-loaded .main-nav-link {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.fonts-loaded .banner-title-second {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.fonts-loaded .banner-btn {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.fonts-loaded .aboutme-title {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.fonts-loaded .banner-title {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.fonts-loaded .banner-title-2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.fonts-loaded .footer-title {
+  font-family: 'Abril Fatface', cursive;
 }
 
 .portfolio-info {
@@ -119,7 +150,7 @@ label.nav-label::before{
   color: #3a4556;
   margin: 20px 20px;
   padding: 10px 20px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: sans-serif;
 }
 
 .main-nav-link:hover {
@@ -198,7 +229,7 @@ label.nav-label::before{
   font-size: 65%;
   letter-spacing: 0.35em;
   text-indent: 0.35em;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: sans-serif;
   color: #3a4556;
   text-align: left;
   padding-left: 1em;
@@ -208,14 +239,14 @@ label.nav-label::before{
   margin: 0.2em 0.15em;
   line-height: 0.9;
   margin-top: 1em;
-  font-family: 'Abril Fatface', cursive;
+  font-family: serif;
   color: #3a4556;
   text-align: left;
   padding-left: .2em;
 }
 
 .banner-title-2 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: serif;
   color: #3a4556;
   margin: 0.2em 0.15em;
   text-align: left;
@@ -227,7 +258,7 @@ label.nav-label::before{
 }
 
 .banner-btn {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: sans-serif;
   color: #3a4556;
   padding: 10px 20px;
   border: solid #3a4556 2px;
@@ -249,7 +280,7 @@ label.nav-label::before{
 }
 
 .aboutme-title {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: sans-serif;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
 }
@@ -374,7 +405,7 @@ footer {
 }
 
 .footer-title {
-  font-family: 'Abril Fatface', cursive;
+  font-family: serif;
   color: #3a4556;
 }
 
