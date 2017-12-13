@@ -333,7 +333,7 @@ label.nav-label::before{
 }
 
 footer {
-  background-color: #ccc;
+  background-color: #f7edee;
     border-top: solid 4px #3a4556;
 }
 
@@ -351,7 +351,7 @@ footer {
 }
 
 .copyright {
-  background-color: #333333;
+  background-color: #3a4556;
 }
 
 .footer-number, .footer-email {
@@ -361,6 +361,11 @@ footer {
 
 .footer-content, .copyright {
   color: #000;
+}
+
+.footer-title {
+  font-family: 'Abril Fatface', cursive;
+  color: #3a4556;
 }
 
 .footer-email:hover{
