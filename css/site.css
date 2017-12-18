@@ -1,0 +1,13 @@
+---
+
+---
+
+{% include_relative fonts.css %}
+{% include_relative modules.css %}
+{% include_relative grid.css %}
+{% include_relative type.css %}
+{% include_relative main.css %}
+
+{% include carousel-item.css data="project-1" %}
+{% include carousel-item.css data="project-2" %}
+{% include carousel-item.css data="project-3" %}
