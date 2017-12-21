@@ -524,4 +524,8 @@ footer {
   .banner-content-main {
     margin-left: 6em;
   }
+
+  .nav-links li {
+    display: inline-block;
+  }
 }
