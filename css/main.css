@@ -120,19 +120,39 @@ label.nav-label::before{
   cursor: pointer;
   position: fixed;
   right: 1em;
-  top: 2em;
+  top: 1.2em;
 }
 
 .nav-check:checked ~ .nav {
   display: block;
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
+  background-color: #000;
+  height: 100vh;
+  position: fixed;
+  z-index: -9;
+}
+
+.nav-check:checked ~ .nav li {
+  display: block;
+  line-height: 3;
+  width: 100%;
+  font-size: 150%;
+}
+
+.nav-check:checked ~ .nav .nav-links {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
-.nav-check:checked ~ .nav .nav-logo {
+.nav-check:checked ~ .nav li .nav-logo {
   display: none;
 }
 
@@ -171,7 +191,6 @@ label.nav-label::before{
   top: 0px;
   transition: .5s;
   width: 100%;
-  margin: 10px;
   position: absolute;
 }
 
@@ -216,39 +235,39 @@ label.nav-label::before{
   vertical-align: middle;
   margin: 0 auto;
   text-align: center;
-  font-size: 95%;
+  font-size: 85%;
 }
 
 .banner-title-second {
   font-size: 65%;
-  letter-spacing: 0.35em;
-  text-indent: 0.35em;
+  letter-spacing: 0.40em;
   font-family: sans-serif;
   color: #3a4556;
   text-align: left;
-  padding-left: 1em;
 }
 
 .banner-title {
-  margin: 0.2em 0.15em;
-  line-height: 0.9;
   margin-top: 1em;
+  letter-spacing: 0.03em;
   font-family: serif;
   color: #3a4556;
   text-align: left;
-  padding-left: .2em;
+  margin-bottom: .2em;
 }
 
 .banner-title-2 {
   font-family: serif;
   color: #3a4556;
-  margin: 0.2em 0.15em;
   text-align: left;
-  padding-left: .2em;
+  letter-spacing: 0.03em;
 }
 
 .banner-paragraph {
   color: #fff;
+}
+
+.banner-content-main {
+  margin-left: 1.5em;
 }
 
 .banner-btn {
@@ -258,14 +277,13 @@ label.nav-label::before{
   border: solid #3a4556 2px;
   text-transform: uppercase;
   font-size: 40%;
-  text-align: left;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
+  padding: 1.5em 1.7em 1em;
 }
 
 .banner-btn-scroll {
   text-align: left;
-  padding-left: 1.4em;
 }
 
 .banner-btn:hover {
@@ -326,8 +344,11 @@ label.nav-label::before{
   margin-right: 1em;
 }
 
-.scrolling-btns {
-  top: 0;
+
+img.scrolling-btns {
+  position: absolute;
+  left: 0;
+  width: 100%;
 }
 
 .nav-btn {
@@ -426,7 +447,7 @@ footer {
   .pre, .nxt {
     width: 6%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     z-index: 99;
     cursor: pointer;
   }
@@ -435,10 +456,6 @@ footer {
     font-size: 80%;
     padding: .5em;
     margin: 0;
-  }
-
-  .banner-btn-scroll {
-    padding-left: 1.8em;
   }
 }
 
@@ -470,6 +487,14 @@ footer {
     z-index: 99;
     cursor: pointer;
   }
+
+  .portfolio-title {
+    margin-bottom: 1em;
+  }
+
+  .banner-title {
+    margin-bottom: .4em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -495,19 +520,8 @@ footer {
   .nav-logo-2 {
     display: none;
   }
-  .banner-btn-scroll {
-    padding-left: 2.6em;
-  }
 
-  .banner-title-second {
-    margin-left: 4em;
-  }
-
-  .banner-title, .banner-title-2  {
-    margin-left: 1.6em;
-  }
-
-  .banner-btn {
-    margin-left: 7.7em;
+  .banner-content-main {
+    margin-left: 6em;
   }
 }
