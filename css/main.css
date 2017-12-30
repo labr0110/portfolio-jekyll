@@ -130,7 +130,7 @@ label.nav-label::before{
   padding: 0;
   list-style-type: none;
   text-align: center;
-  background-color: #000;
+  background-color: #3a4556;
   height: 100vh;
   position: fixed;
   z-index: -9;
@@ -161,7 +161,7 @@ label.nav-label::before{
   font-size: 60%;
   letter-spacing: 0.40em;
   text-indent: 0.40em;
-  color: #3a4556;
+  color: #f7edee;
   margin: 20px 20px;
   padding: 10px 20px;
   font-family: sans-serif;
