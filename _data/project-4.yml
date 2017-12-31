@@ -1,12 +1,13 @@
+title-1: "rebrand—print & digital"
+title-2: "Top of the Hill Bakery"
+desc: "Type of design"
+
 images:
-  - title: "Project Title"
-    desc: "Type of design"
-    src: "case-study-1.svg"
+  - src: "isometric_1.jpg"
+    alt: ""
 
-  - title: ""
-    desc: ""
-    src: "case-study-1.svg"
+  - src: "isometric-2.jpg"
+    alt: ""
 
-  - title: "Project 3"
-    desc: ""
-    src: "case-study-1.svg"
+  - src: "case-study-3.jpg"
+    alt: ""
