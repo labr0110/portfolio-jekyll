@@ -156,12 +156,16 @@ label.nav-label::before{
   display: none;
 }
 
+.nav-check:checked ~ .nav li .main-nav-link {
+  color: #f7edee;
+}
+
 .main-nav-link {
   font-family: sans-serif;
   font-size: 60%;
   letter-spacing: 0.40em;
   text-indent: 0.40em;
-  color: #f7edee;
+  color: #3a4556;
   margin: 20px 20px;
   padding: 10px 20px;
   font-family: sans-serif;
