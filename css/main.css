@@ -226,7 +226,7 @@ label.nav-label::before{
 
 .banner .bannerscroll {
   position: absolute;
-  text-align: center;
+  left: 0;
   bottom: 30px;
   display: block;
   width: 100%;
@@ -326,6 +326,11 @@ label.nav-label::before{
 
 .portfolio-bg {
   background-color: #3a4556;
+}
+
+.portfolio-desc {
+  margin-left: 1em;
+  font-size: 70%;
 }
 
 .container {
