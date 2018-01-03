@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
@@ -5,7 +7,7 @@
 <title>Andreane Labrosse Design — Canadian Graphic Designer — Ottawa, Canada</title>
 <meta name="description" content="Andreane Labrosse Design: A Canadian Graphic Designer located in Ottawa specializing in branding, print and illustration.">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link href="css/site.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -23,81 +25,25 @@
         </label>
         <ul class="nav list-group-inline" id="nav">
           <div class="nav-links">
-            <li><a class="main-nav-link" href="#" rel="home">HOME</a></li>
-            <li><a class="main-nav-link" href="#the-designer" rel="me">THE DESIGNER</a></li>
+            <li><a class="main-nav-link" href="{{site.baseurl}}/" rel="home">HOME</a></li>
+            <li><a class="main-nav-link" href="{{site.baseurl}}/#the-designer" rel="me">THE DESIGNER</a></li>
             <li>
               <i class="nav-logo icon i-64">
                 <img src="images/logo.svg" alt="Andreane Labrosse Design's Logo">
               </i>
             </li>
-            <li><a class="main-nav-link" href="#portfolio" rel="">PORTFOLIO</a></li>
-            <li><a class="main-nav-link" href="#contact-me" rel="contact">CONTACT ME</a></li>
+            <li><a class="main-nav-link" href="{{site.baseurl}}/#portfolio" rel="">PORTFOLIO</a></li>
+            <li><a class="main-nav-link" href="{{site.baseurl}}/#contact-me" rel="contact">CONTACT ME</a></li>
           </div>
         </ul>
       </div>
     </nav>
   </header>
-  <section class="banner">
-    <div class="banner-content parallax--bg pad-t-2">
-      <div class="banner-content-main">
-        <h1 class="banner-title">Changing</h1>
-        <h1 class="banner-title-2">Perspectives</h1>
-        <h2 class="banner-title-second pad-b-2 pad-t">ONE CONCEPT AT A TIME.</h2>
-        <div class="banner-btn-scroll">
-          <a class="banner-btn micro" href="#portfolio" rel="contents">portfolio</a>
-        </div>
-        <div class="bannerscroll">
-          <i class="icon i-18">
-            <a href="#the-designer" rel=""><img src="images/scroll-down-banner.svg" alt="Click me for more information."></a>
-          </i>
-        </div>
-      </div>
+  <div class="error-page">
+    <div class="error-page-content">
+      <h1 class="error-page-title">404</h1>
     </div>
-  </section>
-  <main>
-    <section id="the-designer" class="the-designer">
-        <div class="the-designer-inner">
-          <div class="thedesignercontent island-double">
-            <h2 class="exa pad-t-1-2 aboutme-title">ANDREANE LABROSSE ~ DESIGNER</h2>
-            <p class="the-designer-paragraph milli">Andy is what you may call me. <em>Graphic Design</em> allows me to <em>empathize</em> and to see things in <em>different perspectives.</em> It forces me to <em>explore the different styles</em> and to keep up with the <em>latest design trends.</em> It enables me to <em>solve problems</em> in a rational way, while designing in an emotion way. Graphic Design is the best of both worlds, and I just happen to have a <em>passion</em> for it.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="portfolio" class="portfolio">
-    </section>
-  </main>
-
-{{content}}
-
-  <footer id="contact-me">
-    <div class="footer-content island text-center">
-      <h4 class="zetta footer-title">Get in touch!</h4>
-      <div class="logo-img">
-        <i class="icon i-64">
-          <a href="#"><img src="images/logo.svg" alt="Andreane Labrosse Design's Logo"></a>
-        </i>
-      </div>
-      <div class="footer-contact">
-        <p class="micro footer-number">613-898-0356</p>
-        <a href="#" rel="email"><p class="micro footer-email">andylabrosse95@hotmail.com</p></a>
-      </div>
-      <div class="social-media">
-        <i class="icon i-32">
-          <a href="https://www.instagram.com/alabrossedesign" rel="image_src"><img src="images/instagram.svg" alt="Andreane Labrosse Design's Instagram"></a>
-        </i>
-        <i class="icon i-32">
-          <a href="#the-designer" rel="image_src"><img src="images/linkedin.svg" alt="Andreane Labrosse Design's Linked In"></a>
-        </i>
-        <i class="icon i-32">
-          <a href="#the-designer" rel="image_src"><img src="images/behance.svg" alt="Andreane Labrosse Design's Email"></a>
-        </i>
-      </div>
-    </div>
-    <div class="copyright">
-      <p class="copyright-text micro text-center" rel="copyright">Copyright © 2017 Andreane Labrosse Design</p>
-    </div>
-  </footer>
+  </div>
   <script>
   (function(){'use strict';var f,g=[];function l(a){g.push(a);1==g.length&&f()}function m(){for(;g.length;)g[0](),g.shift()}f=function(){setTimeout(m)};function n(a){this.a=p;this.b=void 0;this.f=[];var b=this;try{a(function(a){q(b,a)},function(a){r(b,a)})}catch(c){r(b,c)}}var p=2;function t(a){return new n(function(b,c){c(a)})}function u(a){return new n(function(b){b(a)})}function q(a,b){if(a.a==p){if(b==a)throw new TypeError;var c=!1;try{var d=b&&b.then;if(null!=b&&"object"==typeof b&&"function"==typeof d){d.call(b,function(b){c||q(a,b);c=!0},function(b){c||r(a,b);c=!0});return}}catch(e){c||r(a,e);return}a.a=0;a.b=b;v(a)}}
   function r(a,b){if(a.a==p){if(b==a)throw new TypeError;a.a=1;a.b=b;v(a)}}function v(a){l(function(){if(a.a!=p)for(;a.f.length;){var b=a.f.shift(),c=b[0],d=b[1],e=b[2],b=b[3];try{0==a.a?"function"==typeof c?e(c.call(void 0,a.b)):e(a.b):1==a.a&&("function"==typeof d?e(d.call(void 0,a.b)):b(a.b))}catch(h){b(h)}}})}n.prototype.g=function(a){return this.c(void 0,a)};n.prototype.c=function(a,b){var c=this;return new n(function(d,e){c.f.push([a,b,d,e]);v(c)})};
@@ -143,14 +89,5 @@
   <!-- <script src="{{site.baseurl}}/js/parallax.js"></script> -->
   <!-- <script src="{{site.baseurl}}/js/fixednav.js"></script> -->
   <!-- <script src="{{site.baseurl}}/js/waypoints.js"></script> -->
-  <script>
-  var toggle=document.getElementById("nav-check");
-  var navlinks=document.querySelectorAll("#nav a");
-  [].forEach.call(navlinks, function(link){
-    link.addEventListener("click", function(e){
-      toggle.checked=false;
-    });
-  });
-  </script>
 </body>
 </html>

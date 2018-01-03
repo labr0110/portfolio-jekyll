@@ -10,6 +10,24 @@ html {
   overflow-x: hidden;
 }
 
+.error-page {
+  background-color: #f7edee;
+  height: 100vh;
+}
+
+.error-page-title {
+  font-family: "abrilFatface", serif;
+  color: #3a4556;
+  font-size: 500%;
+}
+
+.error-page-content {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .fonts-loaded {
   font-family: "PT Sans", sans-serif;
@@ -360,8 +378,6 @@ label.nav-label::before{
 }
 
 img.scrolling-btns {
-  position: absolute;
-  left: 0;
   width: 100%;
 }
 
@@ -461,7 +477,8 @@ footer {
   .pre, .nxt {
     width: 6%;
     position: absolute;
-    top: 45%;
+    top: 48%;
+    transform: translateY(-50%);
     z-index: 99;
     cursor: pointer;
   }
