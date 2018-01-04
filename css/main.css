@@ -185,7 +185,7 @@ label.nav-label::before{
   text-indent: 0.40em;
   color: #3a4556;
   margin: 20px 20px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   font-family: sans-serif;
 }
 
@@ -228,6 +228,16 @@ label.nav-label::before{
   margin: auto;
   display: table;
   top: 0;
+}
+
+.banner-sidebar {
+  position: absolute;
+  top: 0em;
+  right: 0;
+  width: 15%;
+  height: 100vh;
+  background-color: #3a4556;
+
 }
 
 .banner .banner-content {
@@ -313,6 +323,13 @@ label.nav-label::before{
   transition: all 250ms linear;
 }
 
+.social-media-banner {
+  position: absolute;
+  right: 1.5em;
+  bottom: 2em;
+
+}
+
 .aboutme-title {
   font-family: sans-serif;
   letter-spacing: 0.1em;
@@ -325,6 +342,7 @@ label.nav-label::before{
   width: 100%;
   margin: auto;
   text-align: center;
+  background-color: #f7edee;
 }
 
 .the-designer-inner {
@@ -554,7 +572,7 @@ footer {
   }
 
   .banner-content-main {
-    margin-left: 6em;
+    margin-left: 4em;
   }
 
   .nav-links li {
