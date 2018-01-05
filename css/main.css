@@ -261,6 +261,16 @@ label.nav-label::before{
   max-width: none;
 }
 
+.banner .bannerscroll-text {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 30%;
+  letter-spacing: 0.15em;
+  margin: 0;
+  height: 17px;
+  color: #3a4556
+}
+
 .banner-content {
   position: relative;
   display: table-cell;
@@ -323,11 +333,15 @@ label.nav-label::before{
   transition: all 250ms linear;
 }
 
+.social-media-banner i {
+  display: block;
+  margin-top: .5em;
+}
+
 .social-media-banner {
   position: absolute;
   right: 1.5em;
   bottom: 2em;
-
 }
 
 .aboutme-title {
@@ -513,11 +527,12 @@ footer {
 
 
   .banner-title, .banner-title-2{
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   .banner-title-second {
-    font-size: 135%;
+    font-size: 119%;
+    margin: 0;
   }
 
   .banner-btn {
@@ -545,6 +560,13 @@ footer {
   .banner-title {
     margin-bottom: .4em;
   }
+
+  .banner-title-second {
+    padding-top: .5em;
+  }
+
+
+
 }
 
 @media only screen and (min-width: 60em) {
