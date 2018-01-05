@@ -237,7 +237,6 @@ label.nav-label::before{
   width: 15%;
   height: 100vh;
   background-color: #3a4556;
-
 }
 
 .banner .banner-content {
@@ -264,7 +263,7 @@ label.nav-label::before{
 .banner .bannerscroll-text {
   font-family: 'Barlow Semi Condensed', sans-serif;
   text-transform: uppercase;
-  font-size: 60%;
+  font-size: 40%;
   letter-spacing: 0.15em;
   margin: 0;
   height: 17px;
@@ -278,6 +277,7 @@ label.nav-label::before{
   margin: 0 auto;
   text-align: center;
   font-size: 85%;
+  width: 80%;
 }
 
 .banner-title-second {
@@ -310,7 +310,7 @@ label.nav-label::before{
 
 .banner-content-main {
   margin-left: 1.5em;
-  border-right: 7px solid #3a4556;
+  border-right: 17px solid #3a4556;
   height: 17.6em;
 }
 
