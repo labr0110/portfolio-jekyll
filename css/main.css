@@ -310,6 +310,8 @@ label.nav-label::before{
 
 .banner-content-main {
   margin-left: 1.5em;
+  border-right: 7px solid #3a4556;
+  height: 17.6em;
 }
 
 .banner-btn {
