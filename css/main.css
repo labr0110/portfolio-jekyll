@@ -186,7 +186,7 @@ label.nav-label::before{
   text-indent: 0.40em;
   color: #3a4556;
   margin: 20px 20px;
-  padding: 10px 40px;
+  padding: 10px 34px;
   font-family: sans-serif;
 }
 
@@ -625,10 +625,6 @@ footer {
   .banner-title-second {
     font-size: 168%;
   }
-
-  .main-nav-link {
-    font-size: 100%;
-  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -643,10 +639,6 @@ footer {
   }
 
   .main-nav-link {
-    margin: 40px 40px;
-    padding: 50px 50px;
-    font-size: 105%;
-  }
-
+    font-size: 80%;
 
 }
