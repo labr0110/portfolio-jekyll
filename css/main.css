@@ -536,7 +536,7 @@ footer {
 
 
   .banner-title, .banner-title-2{
-    font-size: 3.5em;
+    font-size: 4em;
   }
 
   .banner-title-second {
@@ -616,8 +616,12 @@ footer {
     display: inline-block;
   }
 
-  .banner-content-main {
-    width: 130%;
+  .banner-title, .banner-title-2{
+    font-size: 6em;
+  }
+
+  .banner-title-second{
+
   }
 
 }
