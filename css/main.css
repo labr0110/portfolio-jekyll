@@ -420,7 +420,7 @@ label.nav-label::before{
 }
 
 img.scrolling-btns {
-  width: 100%;
+  width: 80%;
 }
 
 .nav-btn {
@@ -582,6 +582,10 @@ footer {
     font-size: 70%;
   }
 
+  img.scrolling-btns {
+    width: 130%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -632,7 +636,7 @@ footer {
 @media only screen and (min-width: 60em) {
 
   .banner-title, .banner-title-2{
-    font-size: 8em;
+    font-size: 6em;
     line-height: 1.3em;
   }
 
