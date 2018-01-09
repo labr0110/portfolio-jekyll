@@ -549,7 +549,7 @@ footer {
   }
 
   .bannerscroll-text {
-    font-size: 60%; 
+    font-size: 60%;
   }
 
   .nav-check:checked ~ .nav .main-nav-link {
@@ -614,6 +614,10 @@ footer {
 
   .nav-links li {
     display: inline-block;
+  }
+
+  .banner-content-main {
+    width: 130%;
   }
 
 }
