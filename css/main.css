@@ -56,6 +56,7 @@ img.toggle {
   color: #f7edee;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
+  margin-bottom: 1em;
 }
 
 .fonts-loaded .portfolio-title {
@@ -373,6 +374,7 @@ label.nav-label::before{
   font-variant: small-caps;
   color: #fff;
   margin-bottom: 1em;
+  font-size: 105%;
 }
 
 .portfolio-bg {
@@ -381,7 +383,14 @@ label.nav-label::before{
 
 .portfolio-desc {
   margin-left: 4em;
-  font-size: 70%;
+  font-size: 75%;
+  line-height: 1.6em;
+  text-align: right;
+  letter-spacing: 0.05em;
+}
+
+.portfolio-title {
+  font-size: 110%;
 }
 
 .container {
@@ -521,7 +530,6 @@ footer {
     padding: .5em;
     margin: 0;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -538,6 +546,10 @@ footer {
 
   .banner-btn {
     font-size: 70%;
+  }
+
+  .bannerscroll-text {
+    font-size: 60%; 
   }
 
   .nav-check:checked ~ .nav .main-nav-link {
@@ -566,7 +578,9 @@ footer {
     padding-top: .5em;
   }
 
-
+  .portfolio-desc {
+    font-size: 70%;
+  }
 
 }
 
@@ -601,4 +615,5 @@ footer {
   .nav-links li {
     display: inline-block;
   }
+
 }
