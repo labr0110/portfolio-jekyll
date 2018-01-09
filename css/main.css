@@ -640,7 +640,8 @@ footer {
 
   .main-nav-link {
     margin: 40px 40px;
-    padding: 20px 80px;
+    padding: 60px 60px;
+    font-size: 120%;
   }
 
 
