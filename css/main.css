@@ -627,9 +627,7 @@ footer {
   }
 
   .main-nav-link {
-    margin: 40px 40px;
-    padding: 40px 40px;
-    font-size: 102%;
+    font-size: 100%;
   }
 }
 
