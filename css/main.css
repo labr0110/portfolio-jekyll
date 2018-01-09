@@ -575,7 +575,6 @@ footer {
     margin-bottom: .4em;
   }
 
-
   .portfolio-desc {
     font-size: 70%;
   }
@@ -638,5 +637,11 @@ footer {
   .banner-title-second {
     font-size: 192%;
   }
+
+  .main-nav-link {
+    margin: 40px 40px;
+    padding: 20px 80px;
+  }
+
 
 }
