@@ -168,7 +168,6 @@ label.nav-label::before{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 .nav-check:checked ~ .nav li .nav-logo {
@@ -220,6 +219,31 @@ label.nav-label::before{
 .nav.change {
   background-color: red;
   transition: all ease .5s;
+}
+
+.social-media-toggle {
+  display: none;
+}
+
+.logo-toggle{
+  display: none;
+}
+
+.nav-check:checked ~ .nav .social-media-toggle {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.nav-check:checked ~ .nav .logo-toggle {
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
 }
 
 .banner {
@@ -311,7 +335,6 @@ label.nav-label::before{
 
 .banner-content-main {
   margin-left: 1.5em;
-
 }
 
 .banner-btn {
@@ -391,6 +414,13 @@ label.nav-label::before{
 
 .portfolio-title {
   font-size: 110%;
+}
+
+.portfolio-number {
+  text-align: right;
+  margin-right: .3em;
+  margin-top: .5em;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .container {
