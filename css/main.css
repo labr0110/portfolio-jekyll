@@ -623,7 +623,22 @@ footer {
 
   .banner-title-second{
     padding-top: 1em;
-    font-size: 170%;
+    font-size: 200%;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .banner-title, .banner-title-2{
+    font-size: 8em;
+    line-height: 1.3em;
+  }
+
+  .banner-title-second{
+    padding-top: 1em;
+    font-size: 250%;
   }
 
 }
