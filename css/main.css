@@ -618,11 +618,11 @@ footer {
 
   .banner-title, .banner-title-2{
     font-size: 6em;
-    line-height: 1em;
+    line-height: .8em;
   }
 
   .banner-title-second{
-
+    font-size: 120%;
   }
 
 }
