@@ -540,8 +540,9 @@ footer {
   }
 
   .banner-title-second {
-    font-size: 119%;
+    font-size: 135%;
     margin: 0;
+    padding-top: .5em;
   }
 
   .banner-btn {
@@ -574,9 +575,6 @@ footer {
     margin-bottom: .4em;
   }
 
-  .banner-title-second {
-    padding-top: .5em;
-  }
 
   .portfolio-desc {
     font-size: 70%;
@@ -620,29 +618,25 @@ footer {
     display: inline-block;
   }
 
-  .banner-title, .banner-title-2{
-    font-size: 4.5em;
-    line-height: .5em;
+  .banner-title, .banner-title-2 {
+    font-size: 5em;
+    line-height: .7em;
   }
 
-  .banner-title-second{
-    padding-top: 1em;
-    font-size: 200%;
+  .banner-title-second {
+    font-size: 168%;
   }
-
 }
 
+@media only screen and (min-width: 90em) {
 
-@media only screen and (min-width: 60em) {
-
-  .banner-title, .banner-title-2{
+  .banner-title, .banner-title-2 {
     font-size: 6em;
-    line-height: 1.3em;
+    line-height: .9em;
   }
 
-  .banner-title-second{
-    padding-top: 1em;
-    font-size: 250%;
+  .banner-title-second {
+    font-size: 190%;
   }
 
 }
