@@ -618,11 +618,20 @@ footer {
 
   .banner-title, .banner-title-2{
     font-size: 5em;
-    line-height: 1em;
+    line-height: .8em;
   }
 
   .banner-title-second{
+    font-size: 130%;
+  }
+}
 
+
+@media only screen and (min-width: 60em) {
+
+  .banner-content-main {
+    margin-left: 6em;
+    font-size: 7em;
   }
 
 }
