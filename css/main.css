@@ -397,6 +397,7 @@ label.nav-label::before{
 }
 
 .the-designer-answer {
+  font-weight: normal;
   margin: 0;
   text-align: right;
   font-size: 150%;
@@ -408,6 +409,7 @@ label.nav-label::before{
 }
 
 .the-designer-email {
+  font-weight: normal;
   text-decoration: none;
   color: #000;
   font-size: 100%;
