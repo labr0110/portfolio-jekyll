@@ -595,7 +595,7 @@ img.scrolling-btns {
 
 footer {
   background-color: #f7edee;
-    border-top: solid 4px #3a4556;
+  border-top: solid 4px #3a4556;
 }
 
 .footer-contact {
@@ -607,12 +607,15 @@ footer {
 }
 
 .copyright-text {
+  font-family: 'Barlow Semi Condensed', sans-serif;
   margin: 0;
   padding: 1.5em;
+  color: #f7edee;
+  letter-spacing: 0.05em;
 }
 
 .copyright {
-  background-color: #fff;
+  background-color: #3a4556;
 }
 
 .footer-number, .footer-email {
@@ -624,9 +627,14 @@ footer {
   color: #000;
 }
 
+.footer-content{
+  position: relative;
+}
+
 .footer-title {
   font-family: serif;
   color: #3a4556;
+  margin-bottom: 1em;
 }
 
 .footer-email:hover{
