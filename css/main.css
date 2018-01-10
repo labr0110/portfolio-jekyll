@@ -385,7 +385,7 @@ label.nav-label::before{
 
 .the-designer {
   position: relative;
-  height: 100vh;
+  height: 48em;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -424,7 +424,7 @@ label.nav-label::before{
 .the-designer-profile-image {
   margin: 0;
   padding: 0;
-  font-size: .5em;
+  font-size: .3em;
 }
 
 .the-designer-skills, .the-designer-profile, .the-designer-contact,
@@ -473,7 +473,7 @@ label.nav-label::before{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 55%;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .the-designer-paragraph {
@@ -765,6 +765,10 @@ footer {
 
   .portfolio-number {
     font-size: 150%;
+  }
+
+  .the-designer {
+    height: 100vh;
   }
 }
 
