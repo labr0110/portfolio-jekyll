@@ -612,6 +612,7 @@ footer {
   padding: 1.5em;
   color: #f7edee;
   letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .copyright {
