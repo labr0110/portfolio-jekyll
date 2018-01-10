@@ -472,7 +472,7 @@ label.nav-label::before{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65%;
+  width: 55%;
   max-width: 600px;
 }
 
@@ -645,6 +645,8 @@ footer {
   font-family: serif;
   color: #3a4556;
   margin-bottom: 1em;
+  font-size: 120%;
+  letter-spacing: 0.15em;
 }
 
 .footer-email:hover{
