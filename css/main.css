@@ -337,18 +337,6 @@ label.nav-label::before{
   margin-left: 1.5em;
 }
 
-.aboutme-btn {
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  color: #3a4556;
-  padding: 10px 20px;
-  border: solid #3a4556 2px;
-  text-transform: uppercase;
-  font-size: 50%;
-  letter-spacing: 0.1em;
-  text-indent: 0.1em;
-  padding: 1.5em 1.7em 1em;
-}
-
 .aboutme-btn-scroll {
   text-align: left;
 }
@@ -496,6 +484,7 @@ label.nav-label::before{
 }
 
 .aboutme-btn {
+  font-family: 'Barlow Semi Condensed', sans-serif;
   text-align: left;
   color: #3a4556;
   padding: 10px 20px;
@@ -504,7 +493,7 @@ label.nav-label::before{
   font-size: 50%;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
-  padding: 1.5em 1.5em;
+  padding: 1.5em 1.5em 1em;
 }
 
 .typeofdesign-title {
