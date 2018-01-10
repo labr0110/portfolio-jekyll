@@ -406,6 +406,7 @@ label.nav-label::before{
 .the-designer-answer-2 {
   margin: 0;
   text-align: right;
+  font-size: 70%;
 }
 
 .the-designer-email {
@@ -456,7 +457,7 @@ label.nav-label::before{
   font-family: 'Abril Fatface', cursive;
   margin: 0;
   color: #3a4556;
-  font-size: 150%;
+  font-size: 140%;
 }
 
 .the-designer-subhead {
