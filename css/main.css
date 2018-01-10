@@ -337,6 +337,22 @@ label.nav-label::before{
   margin-left: 1.5em;
 }
 
+.aboutme-btn {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #3a4556;
+  padding: 10px 20px;
+  border: solid #3a4556 2px;
+  text-transform: uppercase;
+  font-size: 50%;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+  padding: 1.5em 1.7em 1em;
+}
+
+.aboutme-btn-scroll {
+  text-align: left;
+}
+
 .banner-btn {
   font-family: sans-serif;
   color: #3a4556;
@@ -353,9 +369,10 @@ label.nav-label::before{
   text-align: left;
 }
 
-.banner-btn:hover {
-  background-color: #cccccc;
+.banner-btn:hover, .aboutme-btn:hover {
+  background-color: #3a4556;
   transition: all 250ms linear;
+  color: #f7edee;
 }
 
 .social-media-banner i {
@@ -373,10 +390,11 @@ label.nav-label::before{
   font-family: sans-serif;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
+  margin-bottom: .5em;
 }
 
 .the-designer {
-  display: table;
+  position: relative;
   height: 100vh;
   width: 100%;
   margin: auto;
@@ -384,13 +402,109 @@ label.nav-label::before{
   background-color: #f7edee;
 }
 
+.the-designer-subtitle {
+  margin: 0;
+}
+
+.the-designer-answer {
+  margin: 0;
+  text-align: right;
+  font-size: 150%;
+}
+
+.the-designer-answer-2 {
+  margin: 0;
+  text-align: right;
+}
+
+.the-designer-email {
+  text-decoration: none;
+  color: #000;
+}
+
+.the-designer-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.the-designer-profile-image {
+  margin: 0;
+  padding: 0;
+  font-size: .5em;
+}
+
+.the-designer-skills, .the-designer-profile, .the-designer-contact,
+.the-designer-skills-image, .the-designer-profile-image, .the-designer-contact-image, .the-designer-image {
+  margin: 0;
+  text-align: left;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.the-designer-profile {
+  margin-top: .5em;
+}
+
+.the-designer-profile-image {
+  margin-top: .8em;
+}
+
+.the-designer-contact-image {
+  color: #3a4556;
+}
+
+.the-designer-aboutme {
+  text-align: left;
+  font-family: 'PT sans', sans-serif;
+}
+
+.the-designer-title {
+  text-align: left;
+  font-family: 'Abril Fatface', cursive;
+  margin: 0;
+  color: #3a4556;
+  font-size: 150%;
+}
+
+.the-designer-subhead {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #3a4556;
+  font-size: 80%;
+  letter-spacing: .05em;
+}
+
 .the-designer-inner {
-  display: table-cell;
-  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  max-width: 600px;
 }
 
 .the-designer-paragraph {
-  text-align: center;
+  text-align: left;
+}
+
+.the-designer-profile, .the-designer-contact {
+  color: #3a4556;
+}
+
+.the-designer-me {
+  margin-top: .5em;
+}
+
+.aboutme-btn {
+  text-align: left;
+  color: #3a4556;
+  padding: 10px 20px;
+  border: solid #3a4556 2px;
+  text-transform: uppercase;
+  font-size: 50%;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+  padding: 1.5em 1.5em;
 }
 
 .typeofdesign-title {
@@ -509,7 +623,7 @@ footer {
 }
 
 .copyright {
-  background-color: #3a4556;
+  background-color: #fff;
 }
 
 .footer-number, .footer-email {
@@ -613,6 +727,28 @@ footer {
     width: 130%;
   }
 
+  .the-designer-paragraph {
+    padding-left: 1.5em;
+  }
+
+  .the-designer-inner {
+    min-width: 550px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .the-designer-title {
+    font-size: 2em;
+    padding-bottom: .3em
+  }
+
+  .the-designer-subhead {
+    font-size: 1em;
+  }
+
+  .the-designer-me {
+    margin-top: 0em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -655,6 +791,10 @@ footer {
   .banner-title-second {
     font-size: 168%;
   }
+
+  .the-designer-inner {
+    min-width: 700px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -671,6 +811,10 @@ footer {
   .main-nav-link {
     font-size: 80%;
     padding: 20px 45px;
+  }
+
+  .the-designer-inner {
+    min-width: 900px;
   }
 
 }
