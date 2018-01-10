@@ -88,7 +88,8 @@ img.toggle {
 }
 
 .fonts-loaded .footer-title {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
 }
 
 .portfolio-info {
@@ -634,6 +635,8 @@ footer {
 
 .footer-content{
   position: relative;
+  margin-top: 1em;
+  margin-bottom: .5em;
 }
 
 .footer-title {
