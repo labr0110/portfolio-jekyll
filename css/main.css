@@ -457,7 +457,7 @@ label.nav-label::before{
   font-family: 'Abril Fatface', cursive;
   margin: 0;
   color: #3a4556;
-  font-size: 140%;
+  font-size: 120%;
 }
 
 .the-designer-subhead {
@@ -770,6 +770,10 @@ footer {
 
   .the-designer {
     height: 100vh;
+  }
+
+  .the-designer-title {
+    font-size: 150%;
   }
 }
 
