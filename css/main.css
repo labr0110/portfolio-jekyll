@@ -248,6 +248,10 @@ label.nav-label::before{
   transform: translate(-50%, -10%);
 }
 
+.nav-open {
+  background-color: #f7edee;
+}
+
 .banner {
   position: relative;
   height: 100%;
