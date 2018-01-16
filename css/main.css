@@ -566,6 +566,7 @@ label.nav-label::before{
 
 img.scrolling-btns {
   width: 80%;
+  z-index:1000;
 }
 
 .nav-btn {
