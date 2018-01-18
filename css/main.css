@@ -558,7 +558,7 @@ label.nav-label::before{
   position: absolute;
   top: 50%;
   left: 0;
-  margin-left: 1em;
+  margin-left: .5em;
   transform: translateY(-50%);
 }
 
@@ -566,7 +566,7 @@ label.nav-label::before{
   position: absolute;
   top: 50%;
   right: 0;
-  margin-right: 1em;
+  margin-right: .5em;
   transform: translateY(-50%);
 }
 
@@ -795,6 +795,14 @@ footer {
 
   .the-designer-title {
     font-size: 167%;
+  }
+
+  .pre {
+    margin-left: 1em;
+  }
+
+  .nxt {
+    margin-right: 1.3em;
   }
 }
 
