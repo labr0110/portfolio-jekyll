@@ -312,7 +312,7 @@ label.nav-label::before{
 }
 
 .banner-title-second {
-  font-size: 65%;
+  font-size: 71%;
   letter-spacing: 0.40em;
   font-family: sans-serif;
   color: #3a4556;
@@ -633,6 +633,7 @@ footer {
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
 
 .copyright {
   background-color: #3a4556;
