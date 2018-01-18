@@ -350,13 +350,12 @@ label.nav-label::before{
 .banner-btn {
   font-family: sans-serif;
   color: #3a4556;
-  padding: 10px 20px;
+  padding: 13px 15px 10px 15px;
   border: solid #3a4556 2px;
   text-transform: uppercase;
   font-size: 40%;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
-  padding: 1.5em 1.7em 1em;
 }
 
 .banner-btn-scroll {
@@ -404,13 +403,13 @@ label.nav-label::before{
   font-weight: normal;
   margin: 0;
   text-align: right;
-  font-size: 220%;
+  font-size: 190%;
 }
 
 .the-designer-answer-2 {
   margin: 0;
   text-align: right;
-  font-size: 70%;
+  font-size: 60%;
 }
 
 .the-designer-email {
@@ -461,14 +460,14 @@ label.nav-label::before{
   font-family: 'Abril Fatface', cursive;
   margin: 0;
   color: #3a4556;
-  font-size: 135%;
+  font-size: 120%;
 }
 
 .the-designer-subhead {
   font-family: 'Barlow Semi Condensed', sans-serif;
   text-transform: uppercase;
   color: #3a4556;
-  font-size: 80%;
+  font-size: 70%;
   letter-spacing: .05em;
 }
 
@@ -491,19 +490,20 @@ label.nav-label::before{
 
 .the-designer-me {
   margin-top: .5em;
+  font-size: .65rem;
+  line-height: 1.2rem;
 }
 
 .aboutme-btn {
   font-family: 'Barlow Semi Condensed', sans-serif;
   text-align: left;
   color: #3a4556;
-  padding: 10px 20px;
+  padding: 13px 15px 10px 15px;
   border: solid #3a4556 2px;
   text-transform: uppercase;
   font-size: 50%;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
-  padding: 1.5em 1.5em 1em;
 }
 
 .typeofdesign-title {
@@ -665,6 +665,31 @@ footer {
 .footer-email:hover{
   color: #339999;
   transition: all 250ms ease-in;
+}
+
+@media only screen and (min-width: 375px) {
+
+  .the-designer-title {
+    font-size: 135%;
+  }
+
+  .the-designer-subhead {
+    font-size: 80%;
+  }
+
+  .the-designer-me {
+    font-size: .79rem;
+    line-height: 1.3rem
+  }
+
+  .the-designer-answer {
+    font-size: 220%;
+  }
+
+  .the-designer-email {
+    font-size: 115%;
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
