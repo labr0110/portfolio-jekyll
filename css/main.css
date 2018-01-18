@@ -712,7 +712,6 @@ footer {
     font-size: 70%;
   }
 
-
   .nav-check:checked ~ .nav .main-nav-link {
     font-size: 80%;
     padding: .5em;
@@ -722,6 +721,7 @@ footer {
  .portfolio-number {
    font-size: 120%;
   }
+  
 }
 
 @media only screen and (min-width: 38em) {
