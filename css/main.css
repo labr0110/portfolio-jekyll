@@ -625,15 +625,21 @@ footer {
   margin-top: 1.5em;
 }
 
+.social-media-footer {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
 .copyright-text {
   font-family: 'Barlow Semi Condensed', sans-serif;
   margin: 0;
-  padding: 1.5em;
+  padding: 1.5em 1.5em .6em 1.5em;
   color: #f7edee;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-
 
 .copyright {
   background-color: #3a4556;
@@ -650,14 +656,13 @@ footer {
 
 .footer-content{
   position: relative;
-  margin-top: 1em;
   margin-bottom: .5em;
 }
 
 .footer-title {
+  text-align: center;
   font-family: serif;
   color: #3a4556;
-  margin-bottom: 1em;
   font-size: 120%;
   letter-spacing: 0.15em;
 }
