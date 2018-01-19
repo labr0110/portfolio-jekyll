@@ -9,22 +9,26 @@
   </div>
 </div>
 
-<div class="unit xs-1 s-1 m-1 l-2-3 xl-2-3 text-center">
+<div class="critical-img unit xs-1 s-1 m-1 l-2-3 xl-2-3 text-center">
   <div class="container embed embed-16by9" itemscope itemtype="http://schema.org/CreativeWork">
-    {% for item in site.data[include.data].images %}
+    {% for item in site.data[include.data].images limit:2 %}
     <input class="slide-radio" type="radio" name="{{include.data}}-input" id="{{include.data}}-{{forloop.index}}" {% if forloop.first %}checked{%endif%}>
     <div class="slide-img embed-item" id="{{include.data}}-{{forloop.index}}-slide" itemprop="encoding" itemscope itemtype="http://schema.org/MediaObject">
       <img class="portfolio-img" src="{{site.baseurl}}/images/{{item.src}}" alt="Case study Images" itemprop="thumbnailUrl">
       <div itemprop="accessibilityControl">
         {% unless forloop.first %}
-          <label for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
-            <img class="scrolling-btns" src="{{site.baseurl}}/images/pre.svg" alt="Click to view the previous slide.">
-          </label>
+          {% for item in site.data[include.data].images offset:2 limit:2 %}
+            <label class="non-critical-img" for="{{include.data}}-{{forloop.index|minus:1}}" class="pre">
+              <img class="scrolling-btns" src="{{site.baseurl}}/images/pre.svg" alt="Click to view the previous slide.">
+            </label>
+          {% endfor }
         {% endunless %}
         {% unless forloop.last %}
-          <label for="{{include.data}}-{{forloop.index|plus:1}}" class="nxt">
+          {% for item in site.data[include.data].images offset:2 limit:2 %}
+          <label class="non-critical-img" for="{{include.data}}-{{forloop.index|plus:1}}" class="nxt">
             <img class="scrolling-btns" src="{{site.baseurl}}/images/nxt.svg" alt="Click to view the next slide.">
           </label>
+          {% endfor }
         {% endunless %}
       </div>
     </div>
