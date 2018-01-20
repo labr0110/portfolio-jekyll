@@ -11,7 +11,6 @@
 
 <div class="unit xs-1 s-1 m-1 l-2-3 xl-2-3 text-center">
   <div class="container embed embed-16by9" itemscope itemtype="http://schema.org/CreativeWork">
-    {% for item in site.data[include.data].images limit:2 %}
     <input class="slide-radio" type="radio" name="{{include.data}}-input" id="{{include.data}}-{{forloop.index}}" {% if forloop.first %}checked{%endif%}>
     <div class="slide-img embed-item" id="{{include.data}}-{{forloop.index}}-slide" itemprop="encoding" itemscope itemtype="http://schema.org/MediaObject">
       {% if forloop.first %}
