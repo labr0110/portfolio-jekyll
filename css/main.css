@@ -538,6 +538,11 @@ label.nav-label::before{
   font-family: 'Abril Fatface', cursive;
 }
 
+.portfolio-guidelines-btn {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .container {
   background: #fff;
   border-top: solid 4px #3a4556;
@@ -721,7 +726,7 @@ footer {
  .portfolio-number {
    font-size: 120%;
   }
-  
+
 }
 
 @media only screen and (min-width: 38em) {

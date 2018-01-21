@@ -12,3 +12,4 @@
 {% include carousel-item.css data="project-2" %}
 {% include carousel-item.css data="project-3" %}
 {% include carousel-item.css data="project-4" %}
+{% include carousel-item.css data="project-5" %}

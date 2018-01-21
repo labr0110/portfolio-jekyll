@@ -1,0 +1,17 @@
+desc-number: "5"
+title-1: "rebrand—print & digital"
+title-2: "GIRL FORCE"
+desc: 'A branding revamp for Girl Force; a non-profit organization teaching game development skills to girls, women and non-binary folks in the Ottawa area.
+<br>
+<br>
+<a class="portfolio-guidelines-btn" href="../guidelines/girl-force-branding-guidelines.pdf" download rel="contents">[Download Branding Guidelines]</a>'
+
+images:
+  - src: "gf-1.jpg"
+    alt: "Girl Force Website."
+
+  - src: "gf-3.jpg"
+    alt: "Girl Force Logo Explanation."
+
+  - src: "gf-2.jpg"
+    alt: "Girl Force Apparel."
