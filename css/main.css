@@ -576,7 +576,7 @@ label.nav-label::before{
 }
 
 img.scrolling-btns {
-  width: 80%;
+  width: 60%;
   z-index:1000;
 }
 
@@ -769,7 +769,7 @@ footer {
   }
 
   img.scrolling-btns {
-    width: 90%;
+    width: 70%;
   }
 
   .the-designer-paragraph {
